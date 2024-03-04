@@ -1,0 +1,145 @@
+.form {
+  display: grid;
+  font-size: 0.8rem;
+}
+
+.form--three-columns {
+  grid-Makers-columns: repeat(3, minmax(150px, 100%));
+}
+
+.form--two-columns {
+  grid-Makers-columns: repeat(2, minmax(150px, 100%));
+}
+
+.form--one-columns {
+  grid-Makers-columns: 1fr;
+}
+
+.form__grid-item {
+  padding: 0 0.5rem;
+}
+
+.form__grid-item .form__text,
+.form__grid-item .form__dropdown,
+.form__grid-item .form__multiselect,
+.form__grid-item .form__calendar,
+.p-autocomplete,
+.p-autocomplete-input {
+  width: 100% !important;
+}
+
+.form__grid-section {
+  grid-column-start: 1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.25rem 0rem 0rem 0rem;
+}
+
+.form__label {
+  padding: 0.5rem 0rem 0.25rem 0rem;
+}
+
+.form .pi {
+  font-size: 0.8rem;
+}
+
+.form .p-dropdown-clear-icon {
+  padding-top: 0.15rem;
+}
+
+.p-dialog-header,
+.p-dialog-content,
+.p-dialog-footer {
+  padding: 0.5rem 1rem !important;
+}
+
+.p-dialog-footer {
+  border-top: none !important;
+}
+
+.p-inputtext:not(#login .p-inputtext),
+.p-dropdown-item,
+.p-dropdown-empty-message,
+.p-multiselect-label,
+.p-multiselect-header,
+.p-multiselect-item,
+.p-autocomplete-item {
+  font-size: 0.75rem !important;
+  padding: 0.15rem 0.25rem !important;
+}
+
+.p-dropdown-item,
+.p-autocomplete-item {
+  padding-left: 0.5rem !important;
+}
+
+.p-button {
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--theme-border-radius);
+}
+
+.auto-complete-multiselect {
+  display: block;
+}
+
+.p-autocomplete-input-token input {
+  font-size: 0.75rem !important;
+}
+
+.p-datepicker {
+  padding: 0 0.857rem;
+}
+
+.p-datepicker-calendar thead tr,
+.p-datepicker-calendar tbody tr {
+  display: flex;
+  justify-content: space-around;
+}
+
+.p-datepicker table {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-datepicker table td {
+  padding: 0;
+}
+
+.form__required-mark {
+  color: var(--theme-warning-color);
+  font-weight: bold;
+}
+
+.file-input {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  outline: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.file-dnd {
+  position: relative;
+  height: 190px;
+  border: dotted 0.25rem #ced4da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75rem 0rem 0rem 0rem;
+}
+
+.form__input-footer {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.5rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.input-rtl {
+  direction: rtl !important;
+  width: 100%;
+}

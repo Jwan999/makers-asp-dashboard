@@ -1,0 +1,15 @@
+:root {
+  --theme-color-logo: #00b2f8;
+  --theme-color-logo-shade1: #01b4fb;
+  --theme-color-logo-shade2: #00b7ff;
+
+  --theme-color-primary: #5b5b5b;
+  --theme-color-secondary: #b8c0c4;
+
+  --theme-color-primary-shade1: #747474;
+  --theme-color-secondary-shade1: #b8c0c4;
+
+  --theme-warning-color: firebrick;
+
+  --theme-border-radius: 0.5rem;
+}

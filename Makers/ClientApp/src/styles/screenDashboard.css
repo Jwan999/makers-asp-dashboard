@@ -1,0 +1,93 @@
+.screen-dashboard-container {
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  /*background-image: url(../images/bg.png);*/
+  background-position: 100% -40%;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.screen-dashboard-charts-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.screen-dashboard-stats-container {
+  background: #a9535388;
+  width: 100%;
+  min-height: 74.5px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 12px;
+}
+
+.screen-dashboard-stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.screen-dashboard-stats-item:hover,
+.screen-dashboard-stats-item-selected {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
+
+.screen-dashboard-stats-item-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.screen-dashboard-atms-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.screen-dashboard-atms-header-container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 60px;
+}
+
+.screen-dashboard-atms-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.screen-dashboard-atm {
+  position: relative;
+  height: fit-content;
+}
+
+.screen-dashboard-atm img {
+  width: 46.4px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.screen-dashboard-atm img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1366px) {
+  .screen-dashboard-atm img {
+    width: 39.5px;
+  }
+}
+
+.screen-dashboard-atm div {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 0.7rem !important;
+}

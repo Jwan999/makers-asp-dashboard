@@ -1,0 +1,16 @@
+.progress p {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.progress .p-progressbar {
+  margin: 0.25rem;
+}
+
+.p-progressbar {
+  background-color: var(--theme-color-secondary);
+}
+
+.p-progressbar-determinate .p-progressbar-value-animate {
+  transition: width 0.25s;
+}

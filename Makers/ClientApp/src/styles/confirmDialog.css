@@ -1,0 +1,67 @@
+.p-confirm-dialog .key-value-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+  width: 100%;
+}
+
+.p-confirm-dialog .key-container {
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 3;
+}
+
+.p-confirm-dialog .value-container {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+.p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+  margin: 0;
+}
+
+.token-generate {
+  display: flex;
+  flex-direction: column;
+}
+
+.token-generate__value {
+  word-wrap: break-word;
+  white-space: initial;
+  background-color: var(--theme-color-primary);
+  border-radius: var(--theme-border-radius);
+  color: white;
+  padding: 0.3rem;
+  margin: 0.5rem 0;
+}
+
+.note {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.note__warning {
+  color: firebrick;
+  font-weight: bold;
+}
+
+.p-confirm-dialog .p-dialog-content {
+  align-items: baseline;
+}
+
+.p-confirm-dialog .confirm-dialog-flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.p-confirm-dialog .confirm-dialog-flex-container .confirm-dialog-flex-container-item {
+  width: 100%;
+}

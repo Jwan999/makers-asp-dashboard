@@ -1,0 +1,57 @@
+.iraq-map-container {
+  width: 35%;
+}
+
+@media (max-width: 1366px) {
+  .iraq-map-container {
+    width: 32%;
+  }
+}
+
+#iraqMap path {
+  transition: transform 0.1s, fill-opacity 0.1s ease-in-out;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+  cursor: pointer;
+}
+
+#iraqMap path:hover {
+  transform: scale(1.05);
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+  fill: #4c4c4c;
+}
+
+h5:has(+ #iraqMap) {
+  text-align: center;
+  padding: 10px;
+}
+
+.legend {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 100px;
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.highest-terminals-legend {
+  background: #113f51;
+}
+
+.average-terminals-legend {
+  background: #3199c1;
+}
+
+.lowest-terminals-legend {
+  background: #4eb6de;
+}
+
+.no-terminals-legend {
+  background: #6ad2fb;
+}

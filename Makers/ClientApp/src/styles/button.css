@@ -1,0 +1,17 @@
+.p-button,
+.p-button.p-button-text {
+  background-color: #cf612e;
+  border: 1px solid #cf612e;
+  color: white !important;
+  font-size: 0.9rem;
+}
+
+.p-button.p-component .button__text-padding {
+  padding-left: 0.3rem;
+}
+
+.p-button:hover:not(.p-button-danger) {
+  background-color: #eaaf93 !important;
+  border: 1px solid #eaaf93 !important;
+  color: white !important;
+}

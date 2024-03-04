@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41a983d1.css",
+    "main.js": "/static/js/main.bcaa01eb.js",
+    "static/media/primeicons.svg": "/static/media/primeicons.c6e2053303524e39530c.svg",
+    "static/media/primeicons.eot": "/static/media/primeicons.7fc4d8e224d1ff1b9c62.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.449aa8c65cdc5c2a8686.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.91bacab1f083f2795272.ttf",
+    "static/media/logo-Makers2-login.png": "/static/media/logo-Makers2-login.3bc918123ffab8246a79.png",
+    "static/media/logo-Makers2.png": "/static/media/logo-Makers2.3bc918123ffab8246a79.png",
+    "static/media/logo-makers.png": "/static/media/logo-makers.3bc918123ffab8246a79.png",
+    "static/media/Projects.svg": "/static/media/Projects.e599f12357f5749b1baae020aac5c117.svg",
+    "static/media/Partners.svg": "/static/media/Partners.dc0e191f9ff18efa8d16d36cf007f2ce.svg",
+    "static/media/Trainers.svg": "/static/media/Trainers.518c8e844f1204cd5cc1b98dcecfda90.svg",
+    "static/media/Interns.svg": "/static/media/Interns.cb5bacffabd472cb126879b8ad135205.svg",
+    "static/media/Startups.svg": "/static/media/Startups.1eae46554fc7f13f37e3a1acac0f4738.svg",
+    "static/media/Training.svg": "/static/media/Training.d350df509df2a8df501ecd90d590dbb5.svg",
+    "static/media/Student.svg": "/static/media/Student.9150b981ffb2dc5c7b87579fe52b05d5.svg",
+    "index.html": "/index.html",
+    "main.41a983d1.css.map": "/static/css/main.41a983d1.css.map",
+    "main.bcaa01eb.js.map": "/static/js/main.bcaa01eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41a983d1.css",
+    "static/js/main.bcaa01eb.js"
+  ]
+}

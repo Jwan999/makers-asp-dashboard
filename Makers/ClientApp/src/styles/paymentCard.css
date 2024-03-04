@@ -1,0 +1,54 @@
+.payment-card {
+  color: white;
+  height: 300px;
+  margin: 1rem;
+  padding: 2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0px 0px 17px -3px #000000 !important;
+  -webkit-box-shadow: 0px 0px 17px -3px #000000;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
+}
+
+.payment-card-header {
+  font-size: 1.5rem;
+}
+
+.payment-card-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.payment-card-number {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.payment-card-expiry {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.payment-card-embossed-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.payment-card-printer {
+  cursor: pointer;
+}
+
+.payment-card-printer:hover {
+  color: var(--theme-color-logo);
+}
