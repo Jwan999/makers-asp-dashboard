@@ -6,7 +6,7 @@ import Button from "../../../common/button";
 import searchIcon from "../../../../images/searchIcon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
-import ProductsModal, { ProductsDeleteModal, ProductsDownloadModal } from "../../../common/productsModal";
+import ProductsModal, { ProductsDeleteModal, ProductsDownloadModal } from "ClientApp/src/components/common/productsModal";
 const Products = () => {
   const [displayCount, setDisplayCount] = useState(12);
   const [search, setSearch] = useState("");
